@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,30 @@
 
     <link rel="stylesheet" href="contact.css">
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
+
 <body>
-<nav>
-    <div class="logo">
-        <h1>Zomato</h1>
-    </div>
+    <nav>
+        <div class="logo">
+            <h1>Zomato</h1>
+        </div>
 
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="service.html">service</a></li>
-    </ul>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="service.html">Service</a></li>
+        </ul>
 
-    <div class="buttons">
-        <button class="login">Login</button>
-        <button class="signup">Sign Up</button>
-    </div>
-</nav>
+        <div class="buttons">
+            <button class="login">Login</button>
+            <button class="signup">Sign Up</button>
+        </div>
+        <div class="menu-toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
 
 
     <section class="contact-hero">
@@ -106,142 +110,148 @@
 
         </div>
     </section>
-<section class="contact-cards">
+    <section class="contact-cards">
 
-    <div class="card">
-        <i class="fa-solid fa-location-dot"></i>
-        <h3>Visit Us</h3>
-        <p>404 Brewhouse Lane</p>
-        <p>Portland, OR 97201</p>
-        <a href="#">Open in Maps ↗</a>
-    </div>
-
-    <div class="card">
-        <i class="fa-solid fa-phone"></i>
-        <h3>Call Us</h3>
-        <p>We're here during taproom hours.</p>
-        <a href="#">(503) 555-0199</a>
-    </div>
-
-    <div class="card">
-        <i class="fa-solid fa-envelope"></i>
-        <h3>Email Us</h3>
-        <p>We reply within 24 hours.</p>
-        <a href="#">hello@hopshaven.com</a>
-    </div>
-
-</section>
-<section class="contact-form-section">
-
-    <div class="section-title">
-        <span>REACH OUT</span>
-        <h2>Send Us a Message</h2>
-    </div>
-
-    <div class="form-container">
-
-        <!-- Map -->
-        <div class="map-box">
-            <iframe
-                src="https://www.google.com/maps/embed?pb="
-                allowfullscreen=""
-                loading="lazy">
-            </iframe>
+        <div class="card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>Visit Us</h3>
+            <p>404 Brewhouse Lane</p>
+            <p>Portland, OR 97201</p>
+            <a href="#">Open in Maps ↗</a>
         </div>
 
-        <!-- Form -->
-        <div class="contact-form">
+        <div class="card">
+            <i class="fa-solid fa-phone"></i>
+            <h3>Call Us</h3>
+            <p>We're here during taproom hours.</p>
+            <a href="#">(503) 555-0199</a>
+        </div>
 
-            <div class="input-row">
-                <div>
-                    <label>NAME</label>
-                    <input type="text" placeholder="Your name">
+        <div class="card">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>Email Us</h3>
+            <p>We reply within 24 hours.</p>
+            <a href="#">hello@hopshaven.com</a>
+        </div>
+
+    </section>
+    <section class="contact-form-section">
+
+        <div class="section-title">
+            <span>REACH OUT</span>
+            <h2>Send Us a Message</h2>
+        </div>
+
+        <div class="form-container">
+
+            <!-- Map -->
+            <div class="map-box">
+                <iframe src="https://www.google.com/maps/embed?pb=" allowfullscreen="" loading="lazy">
+                </iframe>
+            </div>
+
+            <!-- Form -->
+            <div class="contact-form">
+
+                <div class="input-row">
+                    <div>
+                        <label>NAME</label>
+                        <input type="text" placeholder="Your name">
+                    </div>
+
+                    <div>
+                        <label>EMAIL</label>
+                        <input type="email" placeholder="you@example.com">
+                    </div>
                 </div>
 
-                <div>
-                    <label>EMAIL</label>
-                    <input type="email" placeholder="you@example.com">
+                <label>SUBJECT</label>
+                <select>
+                    <option>General Inquiry</option>
+                    <option>Feedback</option>
+                    <option>Support</option>
+                </select>
+
+                <label>MESSAGE</label>
+                <textarea placeholder="What's on your mind?"></textarea>
+
+                <button>Send Message</button>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <!-- Logo -->
+            <div class="footer-col">
+                <h2 class="footer-logo">Zomato</h2>
+                <p>
+                    Discover the best food & drinks in your city.
+                    Order online, book tables, and explore restaurants near you.
+                </p>
+
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
                 </div>
             </div>
 
-            <label>SUBJECT</label>
-            <select>
-                <option>General Inquiry</option>
-                <option>Feedback</option>
-                <option>Support</option>
-            </select>
-
-            <label>MESSAGE</label>
-            <textarea placeholder="What's on your mind?"></textarea>
-
-            <button>Send Message</button>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- Footer Section -->
-<footer class="footer">
-
-    <div class="footer-container">
-
-        <!-- Logo -->
-        <div class="footer-col">
-            <h2 class="footer-logo">Zomato</h2>
-            <p>
-                Discover the best food & drinks in your city.
-                Order online, book tables, and explore restaurants near you.
-            </p>
-
-            <div class="social-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <!-- Explore -->
+            <div class="footer-col">
+                <h3>EXPLORE</h3>
+                <ul>
+                    <li><a href="#">Restaurants</a></li>
+                    <li><a href="#">Dining</a></li>
+                    <li><a href="#">Nightlife</a></li>
+                    <li><a href="#">Delivery</a></li>
+                </ul>
             </div>
+
+            <!-- Company -->
+            <div class="footer-col">
+                <h3>COMPANY</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="footer-col">
+                <h3>CONTACT</h3>
+                <ul>
+                    <li><i class="fa-solid fa-location-dot"></i> Chennai, India</li>
+                    <li><i class="fa-solid fa-phone"></i> +91 9876543210</li>
+                    <li><i class="fa-solid fa-envelope"></i> support@zomato.com</li>
+                </ul>
+            </div>
+
         </div>
 
-        <!-- Explore -->
-        <div class="footer-col">
-            <h3>EXPLORE</h3>
-            <ul>
-                <li><a href="#">Restaurants</a></li>
-                <li><a href="#">Dining</a></li>
-                <li><a href="#">Nightlife</a></li>
-                <li><a href="#">Delivery</a></li>
-            </ul>
+        <hr>
+
+        <div class="footer-bottom">
+            <p>© 2026 Zomato. All Rights Reserved.</p>
         </div>
 
-        <!-- Company -->
-        <div class="footer-col">
-            <h3>COMPANY</h3>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Careers</a></li>
-                <li><a href="#">Investor Relations</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </div>
+    </footer>
+    <script>
+        const menu = document.querySelector(".menu-toggle");
+        const nav = document.querySelector(".nav-links");
 
-        <!-- Contact -->
-        <div class="footer-col">
-            <h3>CONTACT</h3>
-            <ul>
-                <li><i class="fa-solid fa-location-dot"></i> Chennai, India</li>
-                <li><i class="fa-solid fa-phone"></i> +91 9876543210</li>
-                <li><i class="fa-solid fa-envelope"></i> support@zomato.com</li>
-            </ul>
-        </div>
-
-    </div>
-
-    <hr>
-
-    <div class="footer-bottom">
-        <p>© 2026 Zomato. All Rights Reserved.</p>
-    </div>
-
-</footer>
+        menu.onclick = function () {
+            nav.classList.toggle("active");
+        }
+    </script>
 </body>
+
 </html>
